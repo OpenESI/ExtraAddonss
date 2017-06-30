@@ -100,7 +100,7 @@ class SelectCountry(Screen):
                         self.prombt(urlserver, pluginname)
 
     def prombt(self, com, dom):
-        self.session.open(Console, _('downloading-installing: %s') % dom, ['ipkg install -force-overwrite %s' % com])
+        self.session.open(Console, _('downloading-installing: %s') % dom, ['opkg install -force-overwrite %s' % com])
 
 
 def main(session, **kwargs):
