@@ -27,13 +27,13 @@ class Getipklist(Screen):
 
     def openTest(self):
         self['info'].setText('Downloading list...')
-        xurl = 'http://www.openesi.eu/paneladdonss.xml'
+        xurl = 'http://www.openesi.eu/paneladdons.xml'
         print 'xurl =', xurl
-        xdest = '/usr/lib/enigma2/python/Plugins/Extensions/ExtraAddonss/paneladdonss.xml'
+        xdest = '/usr/lib/enigma2/python/Plugins/Extensions/ExtraAddonss/paneladdons.xml'
         print 'xdest =', xdest
         try:
             xlist = urllib.urlretrieve(xurl, xdest)
-            myfile = file('/usr/lib/enigma2/python/Plugins/Extensions/ExtraAddonss/paneladdonss.xml')
+            myfile = file('/usr/lib/enigma2/python/Plugins/Extensions/ExtraAddonss/paneladdons.xml')
             self.data = []
             self.names = []
             icount = 0
