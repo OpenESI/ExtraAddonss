@@ -1,12 +1,7 @@
 <?xml version="1.0"  encoding="UTF-8" ?>
 <!-- List of OpenESI plugins -->
 <xml>
-          
-	   <plugins cont="Update Extra Panel">
-        <plugin name="Update Extra Panel">
-          <url>http://www.openesi.eu/addons/ExtraAddonssupdate/extra-url_5.5_all.ipk</url>
-        </plugin> 
-        <plugins cont="Bootlogo">
+      <plugins cont="Bootlogo">
         <plugin name="Bootlogo Astract">
           <url>http://www.openesi.eu/extra-addons/Bootlogo/astract.ipk</url>
         </plugin> 
@@ -1456,6 +1451,11 @@
         </plugin>
         <plugin name="Spinner Udinese">
           <url>http://www.openesi.eu/extra-addons/Spinner%20Sport/Spinner-Udinese.ipk</url>
+        </plugin>
+        </plugins>
+        <plugins cont="Update Extra Panel">
+        <plugin name="Update Extra Panel">
+          <url>http://www.openesi.eu/addons/ExtraAddonssupdate/extra-url_5.5_all.ipk</url>
         </plugin>
 				              
 		  
